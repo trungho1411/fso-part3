@@ -1,11 +1,12 @@
 
+###
 GET http://localhost:3001/api/persons
 
 ###
 GET http://localhost:3001/info
 
 ###
-GET http://localhost:3001/api/persons/3
+GET http://localhost:3001/api/persons/61acc7a0641d5bd8e7da2bda
 
 ###
 DELETE http://localhost:3001/api/persons/2
@@ -19,3 +20,11 @@ Content-Type: application/json
     "number": "14111999"
 }
 
+###
+PUT http://localhost:3001/api/persons/61acc7a0641d5bd8e7da2bda
+Content-Type: application/json
+
+{
+    "name": "Arto Helasb"
+
+}
